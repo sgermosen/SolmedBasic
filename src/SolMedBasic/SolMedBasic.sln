@@ -5,6 +5,14 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolMedBasic.Web", "SolMedBasic.Web\SolMedBasic.Web.csproj", "{4A44AD97-5B3C-468B-A9D2-518E198AD414}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolMedBasic.Domain", "SolMedBasic.Domain\SolMedBasic.Domain.csproj", "{2878BB79-20EB-43CE-B39E-84BB8D48C3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolMedBasic.Percistence", "SolMedBasic.Percistence\SolMedBasic.Percistence.csproj", "{51E460B0-8D13-41D9-9900-1720B89D2E78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolMedBasic.Application", "SolMedBasic.Application\SolMedBasic.Application.csproj", "{61E5E0ED-5EF6-4312-BD3C-2A27D355A73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolMedBasic.API", "SolMedBasic.API\SolMedBasic.API.csproj", "{0404EDB8-345C-4C47-9FF3-125F3D40A5C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{4A44AD97-5B3C-468B-A9D2-518E198AD414}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A44AD97-5B3C-468B-A9D2-518E198AD414}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A44AD97-5B3C-468B-A9D2-518E198AD414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2878BB79-20EB-43CE-B39E-84BB8D48C3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2878BB79-20EB-43CE-B39E-84BB8D48C3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2878BB79-20EB-43CE-B39E-84BB8D48C3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2878BB79-20EB-43CE-B39E-84BB8D48C3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E460B0-8D13-41D9-9900-1720B89D2E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E460B0-8D13-41D9-9900-1720B89D2E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E460B0-8D13-41D9-9900-1720B89D2E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E460B0-8D13-41D9-9900-1720B89D2E78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E5E0ED-5EF6-4312-BD3C-2A27D355A73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E5E0ED-5EF6-4312-BD3C-2A27D355A73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E5E0ED-5EF6-4312-BD3C-2A27D355A73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E5E0ED-5EF6-4312-BD3C-2A27D355A73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0404EDB8-345C-4C47-9FF3-125F3D40A5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0404EDB8-345C-4C47-9FF3-125F3D40A5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0404EDB8-345C-4C47-9FF3-125F3D40A5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0404EDB8-345C-4C47-9FF3-125F3D40A5C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
