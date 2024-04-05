@@ -1,0 +1,6 @@
+@SolMedBasic.API_HostAddress = http://localhost:5131
+
+GET {{SolMedBasic.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
